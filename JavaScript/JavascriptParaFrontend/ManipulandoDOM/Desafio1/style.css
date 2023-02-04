@@ -26,8 +26,12 @@
     background-size: cover;
     width: 450px;
     height: 350px;
-    margin-bottom: 30px;
     position: relative;
     top: 10%;
     right: 5%;
+  }
+
+
+  #texto {
+    margin-top: 100px;
   }
