@@ -63,3 +63,30 @@ function atualizaEstatiscas(peca){
         elemento.textContent = parseInt(elemento.textContent) + pecas[peca] [elemento.dataset.estatistica]
     })
 }
+
+
+function atualizaImagem() {
+    var imgRobo = document.querySelector("#imgRobo")
+
+    var selecao = document.getElementById("listagemCores");
+    var opcao = selecao.options[selecao.selectedIndex];
+
+
+    if(opcao.text == "Azul"){
+        imgRobo.setAttribute('src', 'img/Robotron2000-Azul.png');
+    }else if(opcao.text == "Amarelo"){
+        imgRobo.setAttribute('src', 'img/Robotron2000-Amarelo.png');
+    }else if(opcao.text == "Branco"){
+        imgRobo.setAttribute('src', 'img/Robotron2000-Branco.png');
+    }else if(opcao.text == "Preto"){
+        imgRobo.setAttribute('src', 'img/Robotron2000-Preto.png');
+    }else if(opcao.text == "Rosa"){
+        imgRobo.setAttribute('src', 'img/Robotron2000-Rosa.png');
+    }else if(opcao.text == "Vermelho"){
+        imgRobo.setAttribute('src', 'img/Robotron2000-Vermelho.png');
+    }
+
+    console.log(opcao.value);
+}
+
+atualizaImagem();
