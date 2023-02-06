@@ -12,7 +12,7 @@ let numAleat = getRandomIntInclusive();
 
 while(cont >= 1){
     alert(numAleat)
-    let numUser = prompt("Insera um número entre 1 e 10: ");
+    let numUser = prompt("Insira um número entre 1 e 10: ");
 
     if(numUser == numAleat){
         alert(`Numero do Usuario: ${numUser}\nNumero do Computador: ${numAleat}\nParabéns você acertou.`);
