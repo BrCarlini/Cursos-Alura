@@ -44,12 +44,13 @@ body {
 .apresentacao {
     padding: 5% 15%;
     display: flex;
+    gap: 82px;
     align-items: center;
     justify-content: space-between;
 }
 
 .apresentacao-conteudo {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -93,7 +94,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 16px;
-    width: 378px;
+    width: 50%;
     font-weight: 600;
     font-family: var(--fonte-secundaria);
     padding: 21.5px 0;
@@ -111,7 +112,42 @@ body {
 }
 
 
+.apresentacao-imagem {
+    width: 50%;
+}
+
+
 .rodape {
     height: 100%;
     background-color: var(--cor-terciaria);
+}
+
+
+@media (max-width: 1200px){
+
+    .cabecalho {
+        padding: 10%;
+
+    }
+
+    .cabecalho-menu {
+        gap: 40px;
+        justify-content: center;
+    }
+
+    .cabecalho-menu-link {
+        font-size: 1rem;
+    }
+
+
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+
+    .apresentacao-conteudo {
+        width: auto;
+    }
+    
 }
