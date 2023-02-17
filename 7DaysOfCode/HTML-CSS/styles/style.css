@@ -6,7 +6,7 @@
 }
 
 :root {
-    --cor-titulo: #101828;
+    --cor-texto: #101828;
     --cor-principal:#667085;
     --cor-destaque: #8E2424;
     --cor-fundo: #FFFFFF;
@@ -17,6 +17,7 @@ body {
     width: 100%;
     height: 100vh;
     background-color: var(--cor-fundo);
+    font-size: 1rem;
 }
 
 
@@ -73,8 +74,8 @@ body {
 
 .titulo-sobreNos {
     padding: 24px 0;
-    font-size: 33px;
-    color: var(--cor-titulo);
+    font-size: 3rem;
+    color: var(--cor-texto);
 }
 
 
@@ -93,13 +94,14 @@ body {
 
 .titulo-metrica {
     color: var(--cor-destaque);
-    font-size: 35px;
+    font-size: 3.75rem;
 }
 
 
 .subTitulo-metrica {
     padding: 16px 0 10px 0;
     font-size: 0.80rem;
+    color: var(--cor-texto);
 }
 
 
@@ -136,7 +138,8 @@ body {
 
 .titulo-introVaga {
     padding: 1rem 0;
-    color: var(--cor-titulo);
+    color: var(--cor-texto);
+    font-size: 2.25rem;
 }
 
 
@@ -158,7 +161,13 @@ body {
 
 
 .titulo-departamento {
+    font-size: 1.25rem;
     padding: 4rem 0 2rem;
+    color: var(--cor-texto);
+}
+
+.titulo-vaga {
+    color: var(--cor-texto);
 }
 
 .box-vaga {
@@ -174,8 +183,94 @@ body {
     display: inline-block;
     margin: 0 2rem 0 0;
     padding: 2.5rem 0 0;
+    color: var(--cor-texto);
 }
 
+
+.sessao-comentarios {
+    display: flex;
+    justify-content: center;
+}
+
+
+.box-comentario {
+    width: 80%;
+    text-align: center;
+    padding: 3.5rem;
+    margin: 3.5rem 0;
+    background-color: #8e24240c;
+    
+}
+
+
+.span-comentario {
+    color: var(--cor-destaque);
+    font-weight: 600;
+}
+
+
+.texto-comentario {
+    font-size: 2.25rem;
+    font-weight: 600;
+    padding: 2rem;
+    color: var(--cor-texto);
+}
+
+
+.nome-comentarista {
+    color: var(--cor-texto);
+    font-weight: 600;
+    padding: 1rem 0 0.4rem;
+}
+
+.profissao-comentarista {
+    color: var(--cor-principal);
+    font-size: 0.87rem;
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #98a2b30e;
+    padding: 5rem 0;
+}
+
+
+.box-footer {
+    text-align: center;
+}
+
+
+.titulo-footer {
+    color: var(--cor-texto);
+    font-size: 2.25rem;
+    margin: 0 0 1rem;
+}
+
+
+.span-footer {
+    color: var(--cor-principal);
+    font-size: 1.25rem;
+}
+
+
+.box-footerInput {
+    padding: 2rem;
+}
+
+
+.input-footer {
+    width: 55%;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+}
+
+
+.texto-direitosAutorais-footer {
+    color: var(--cor-principal);
+    font-size: 0.68rem;
+}
 
 @media (max-width: 941px) {
     .container-menu {
@@ -204,4 +299,8 @@ body {
         width: 50%;
         margin: 2rem 0 2rem;
     }
+
+    .texto-comentario {
+        font-size: 1rem;
+    } 
 }
