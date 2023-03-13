@@ -1,0 +1,36 @@
+.cabecalho__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* Position: fixed - top: 0 indica que eu quero este elemento fixo, Onde? no topo 0px do topo*/
+    position: fixed;
+    top: 0;
+}
+
+
+.cabecalho__pesquisa__item {
+    display: none;
+}
+
+
+.rodape__container {
+    display: flex;
+    /*flex-direction: column;
+    flex-wrap: wrap;*/
+    flex-flow: column wrap;
+}
+
+@media (min-width: 834px){
+    
+    .cabecalho__pesquisa__item {
+        display: block;
+    }
+
+
+    .rodape__container {
+        justify-content: space-between;
+    }
+
+
+}
