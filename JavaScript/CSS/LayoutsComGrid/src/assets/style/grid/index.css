@@ -1,6 +1,6 @@
 body {
     display: grid;
-    grid-template-areas:
+    grid-template-areas: 
     "aside header"
     "aside main";
     grid-template-columns: auto 1fr;
@@ -10,11 +10,9 @@ body {
     grid-area: header;
 }
 
-
 .menu-lateral {
     grid-area: aside;
 }
-
 
 .principal {
     grid-area: main;
