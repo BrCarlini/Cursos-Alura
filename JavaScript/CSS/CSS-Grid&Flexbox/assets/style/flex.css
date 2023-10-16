@@ -60,6 +60,19 @@
 }
 
 
+/* Rodapé */
+
+.rodape {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rodape__logo {
+    align-self: end;
+}
+
+
 
 @media(min-width: 720px) {
 
