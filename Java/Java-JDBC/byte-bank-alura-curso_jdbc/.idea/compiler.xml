@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="bytebank" />
+        <module name="byte-bank-alura-curso_jdbc" />
         <module name="bytebank-jdbc" />
-        <module name="byte-bank-alura-curso_jdbc_inicio" />
       </profile>
     </annotationProcessing>
   </component>
